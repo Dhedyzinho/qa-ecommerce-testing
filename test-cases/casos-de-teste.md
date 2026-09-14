@@ -21,9 +21,10 @@
 **Resultado esperado:**
 O usuário deve ser direcionado para a página de produtos.
 
-**Resultado obtido:** A executar.
+**Resultado obtido:** O usuário foi direcionado corretamente para a página de produtos.
 
-**Status:** ⏳ Não executado
+**Status:** ✅ PASSOU
+
 
 
 ---
@@ -48,10 +49,9 @@ O usuário deve ser direcionado para a página de produtos.
 **Resultado esperado:**
 O sistema deve impedir o acesso e apresentar uma mensagem informando que as credenciais são inválidas.
 
-**Resultado obtido:** A executar.
+**Resultado obtido:** O acesso foi bloqueado e uma mensagem de erro foi apresentada.
 
-**Status:** ⏳ Não executado
-
+**Status:** ✅ PASSOU
 
 ---
 
@@ -71,10 +71,9 @@ O sistema deve impedir o acesso e apresentar uma mensagem informando que as cred
 **Resultado esperado:**
 O produto selecionado deve aparecer no carrinho com nome e preço corretos.
 
-**Resultado obtido:** A executar.
+**Resultado obtido:** O Sauce Labs Backpack foi adicionado corretamente ao carrinho.
 
-**Status:** ⏳ Não executado
-
+**Status:** ✅ PASSOU
 
 ---
 
@@ -94,9 +93,9 @@ O produto selecionado deve aparecer no carrinho com nome e preço corretos.
 **Resultado esperado:**
 O produto deve ser removido do carrinho.
 
-**Resultado obtido:** A executar.
+**Resultado obtido:** O produto foi removido corretamente e o carrinho ficou vazio.
 
-**Status:** ⏳ Não executado
+**Status:** ✅ PASSOU
 
 
 ---
@@ -125,6 +124,6 @@ O produto deve ser removido do carrinho.
 **Resultado esperado:**
 A compra deve ser finalizada e o sistema deve apresentar uma confirmação do pedido.
 
-**Resultado obtido:** A executar.
+**Resultado obtido:** A compra foi finalizada com sucesso e a tela de confirmação do pedido foi apresentada.
 
-**Status:** ⏳ Não executado
+**Status:** ✅ PASSOU
