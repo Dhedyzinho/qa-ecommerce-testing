@@ -249,3 +249,37 @@ Status:
 
 ✅ PASSOU
 
+## TC010
+
+**Título:** Cancelar o checkout
+
+**Objetivo:**
+
+Verificar se o usuário consegue cancelar o processo de checkout antes de finalizar a compra.
+
+**Pré-condição:**
+
+Estar logado na aplicação e ter pelo menos um produto no carrinho.
+
+**Passos:**
+
+1. Acessar a página de produtos.
+2. Adicionar um produto ao carrinho.
+3. Acessar o carrinho.
+4. Clicar em "Checkout".
+5. Preencher os dados necessários.
+6. Avançar para a tela de confirmação da compra.
+7. Clicar em "Cancel".
+
+**Resultado esperado:**
+
+O sistema deve cancelar o processo de checkout e retornar para a página de produtos, sem finalizar a compra.
+
+Resultado obtido:
+
+O sistema cancelou o processo de checkout e retornou para a página de produtos, sem finalizar a compra.
+
+Status:
+
+✅ PASSOU
+
