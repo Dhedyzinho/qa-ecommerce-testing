@@ -215,3 +215,37 @@ O produto foi apresentado no carrinho com a quantidade 1. O campo de quantidade 
 
 ✅ PASSOU
 
+## TC009
+
+**Título:** Validar campos obrigatórios no checkout
+
+**Objetivo:**
+
+Verificar se o sistema impede o usuário de continuar a compra quando um dos campos obrigatórios do checkout não é preenchido.
+
+**Pré-condição:**
+
+Estar logado na aplicação e ter pelo menos um produto no carrinho.
+
+**Passos:**
+
+1. Acessar a página de produtos.
+2. Adicionar um produto ao carrinho.
+3. Acessar o carrinho.
+4. Clicar em "Checkout".
+5. Deixar um dos campos obrigatórios vazio.
+6. Preencher os demais campos.
+7. Clicar em "Continue".
+
+**Resultado esperado:**
+
+O sistema deve impedir o avanço para a próxima etapa e apresentar uma mensagem informando qual campo obrigatório precisa ser preenchido.
+
+Resultado obtido:
+
+O sistema impediu o avanço do checkout e apresentou a mensagem "Error: Postal Code is required".
+
+Status:
+
+✅ PASSOU
+
