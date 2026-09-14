@@ -176,3 +176,11 @@ Estar logado na aplicação.
 
 Os dois produtos adicionados devem aparecer no carrinho corretamente.
 
+Resultado obtido:
+
+Os três produtos adicionados foram exibidos corretamente no carrinho, cada um com quantidade 1.
+
+Status:
+
+✅ PASSOU
+
