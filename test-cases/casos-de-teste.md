@@ -152,3 +152,27 @@ O sistema impediu o login e apresentou a mensagem "Epic sadface: Username is req
 Status:
 ✅ PASSOU
 
+## TC007
+
+**Título:** Adicionar mais de um produto ao carrinho
+
+**Objetivo:**
+
+Verificar se o sistema permite adicionar mais de um produto ao carrinho e mantém os produtos selecionados corretamente.
+
+**Pré-condição:**
+
+Estar logado na aplicação.
+
+**Passos:**
+
+1. Acessar a página de produtos.
+2. Adicionar um produto ao carrinho.
+3. Voltar para a lista de produtos.
+4. Adicionar um segundo produto ao carrinho.
+5. Acessar o carrinho.
+
+**Resultado esperado:**
+
+Os dois produtos adicionados devem aparecer no carrinho corretamente.
+
