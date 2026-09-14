@@ -2,13 +2,13 @@
 
 Projeto de testes funcionais em uma aplicação de e-commerce, desenvolvido como portfólio de QA Junior.
 
-## Objetivo
+🎯 Objetivo
 
 Praticar testes de software em uma aplicação real, criando casos de teste,
 executando cenários, registrando evidências e documentando bugs encontrados
 durante os testes.
 
-## O que eu testei
+🧪 O que eu testei
 
 - Login com credenciais válidas
 - Login com senha inválida
@@ -20,7 +20,7 @@ durante os testes.
 - Registro de evidências dos testes
 - Identificação e documentação de bugs
 
-## Resultado dos testes
+📊 Resultado dos testes
 
 - Login com credenciais válidas — PASSOU
 - Login com senha inválida — PASSOU
@@ -31,13 +31,13 @@ durante os testes.
 
 Durante os testes, encontrei alguns comportamentos que foram registrados para análise como possíveis bugs.
 
-## Aplicação testada
+🌐 Aplicação testada
 
 - Sauce Labs Swag Labs
 - Tipo: E-commerce
 - Testes realizados: Funcionais
 
-## Casos de teste
+📝 Casos de teste
 
 - TC001 — Login com credenciais válidas
 - TC002 — Login com senha inválida
@@ -45,7 +45,7 @@ Durante os testes, encontrei alguns comportamentos que foram registrados para an
 - TC004 — Remover produto do carrinho
 - TC005 — Finalizar compra (Checkout)
 
-## Resultado dos testes
+✅ Resultados dos testes
 
 | Caso | Cenário | Status |
 |---|---|---|
@@ -69,7 +69,7 @@ Aqui está uma evidência de um dos testes realizados no checkout.
 
 ![Evidência do checkout](evidence/TC005-checkout.png)
 
-## Estrutura do projeto
+📁 Estrutura do projeto
 
 ```text
 qa-ecommerce-testing/
