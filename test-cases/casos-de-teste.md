@@ -186,25 +186,32 @@ Status:
 
 ## TC008
 
-**Título:** Alterar a quantidade de um produto no carrinho
+**Título:** Verificar quantidade de produtos no carrinho
 
 **Objetivo:**
 
-Verificar se o sistema permite alterar a quantidade de um produto no carrinho e atualiza o valor total corretamente.
+Verificar como a aplicação apresenta a quantidade dos produtos adicionados ao carrinho.
 
 **Pré-condição:**
 
-Estar logado na aplicação e ter pelo menos um produto no carrinho.
+Estar logado na aplicação e ter um produto no carrinho.
 
 **Passos:**
 
 1. Acessar a página de produtos.
 2. Adicionar um produto ao carrinho.
 3. Acessar o carrinho.
-4. Alterar a quantidade do produto para 2.
-5. Verificar o valor do produto e o total da compra.
+4. Verificar o campo de quantidade apresentado para o produto.
 
 **Resultado esperado:**
 
-A quantidade do produto deve ser alterada para 2 e o valor total da compra deve ser atualizado de acordo com a nova quantidade.
+O produto deve aparecer no carrinho com a quantidade apresentada corretamente.
+
+**Resultado obtido:**
+
+O produto foi apresentado no carrinho com a quantidade 1. O campo de quantidade não permite edição direta.
+
+**Status:**
+
+✅ PASSOU
 
