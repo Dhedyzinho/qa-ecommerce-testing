@@ -127,3 +127,28 @@ A compra deve ser finalizada e o sistema deve apresentar uma confirmação do pe
 **Resultado obtido:** A compra foi finalizada com sucesso e a tela de confirmação do pedido foi apresentada.
 
 **Status:** ✅ PASSOU
+
+## TC006
+Título: Login com campos vazios
+
+Objetivo:
+Verificar se o sistema impede o login quando os campos obrigatórios não são preenchidos.
+
+Pré-condição:
+Estar na tela de login.
+
+Passos:
+1. Acessar a página de login.
+2. Não preencher o campo de usuário.
+3. Não preencher o campo de senha.
+4. Clicar em "Login".
+
+Resultado esperado:
+O sistema deve impedir o login e apresentar uma mensagem informando que os campos obrigatórios precisam ser preenchidos.
+
+Resultado obtido:
+O sistema impediu o login e apresentou a mensagem "Epic sadface: Username is required".
+
+Status:
+✅ PASSOU
+
