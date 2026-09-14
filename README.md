@@ -1,4 +1,4 @@
-# QA E-commerce Testing
+# 🛒 Testando um E-commerce na prática
 
 Projeto de testes funcionais em uma aplicação de e-commerce, desenvolvido como portfólio de QA Junior.
 
