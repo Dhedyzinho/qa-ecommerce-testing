@@ -13,4 +13,5 @@ A compra foi finalizada com sucesso e o sistema apresentou a tela de confirmaç�
 ✅ PASSOU
 
 ## Evidência
-A evidência visual do checkout foi adicionada ao repositório.
+
+![Evidência do checkout](TC005-checkout.png)
