@@ -4,7 +4,9 @@ Projeto de testes funcionais em uma aplicação de e-commerce, desenvolvido como
 
 ## Objetivo
 
-Praticar testes de software em uma aplicação real, criando casos de teste, executando cenários, registrando evidências e documentando bugs encontrados durante os testes.
+Praticar testes de software em uma aplicação real, criando casos de teste,
+executando cenários, registrando evidências e documentando bugs encontrados
+durante os testes.
 
 ## O que eu testei
 
@@ -18,7 +20,16 @@ Praticar testes de software em uma aplicação real, criando casos de teste, exe
 - Registro de evidências dos testes
 - Identificação e documentação de bugs
 
-Praticar testes de software em uma aplicação real, criando casos de teste, executando cenários, registrando evidências e documentando bugs encontrados durante os testes.
+## Resultado dos testes
+
+- Login com credenciais válidas — PASSOU
+- Login com senha inválida — PASSOU
+- Adição de produto ao carrinho — PASSOU
+- Remoção de produto do carrinho — PASSOU
+- Checkout com dados válidos — PASSOU
+- Validação de campos obrigatórios — PASSOU
+
+Durante os testes, encontrei alguns comportamentos que foram registrados para análise como possíveis bugs.
 
 ## Aplicação testada
 
@@ -44,17 +55,19 @@ Praticar testes de software em uma aplicação real, criando casos de teste, exe
 | TC004 | Remover produto do carrinho | ✅ PASSOU |
 | TC005 | Finalizar compra | ✅ PASSOU |
 
-## Bug Report
+## 🐛 Problema encontrado
 
-Durante os testes foi identificado um problema relacionado à validação do campo ZIP/Postal Code no checkout.
+Durante os testes, encontrei um problema na validação do campo ZIP/Postal Code no checkout.
 
-- BUG-001 — Validação do campo ZIP/Postal Code
+- BUG-001 — Campo ZIP/Postal Code aceita formato inválido
 - Severidade: Baixa
 - Prioridade: Média
 
-## Evidências
+## 📸 Evidências
 
-As evidências dos testes estão organizadas na pasta `evidence`.
+Aqui está uma evidência de um dos testes realizados no checkout.
+
+![Evidência do checkout](evidence/TC005-checkout.png)
 
 ## Estrutura do projeto
 
