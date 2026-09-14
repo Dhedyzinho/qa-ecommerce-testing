@@ -4,7 +4,21 @@ Projeto de testes funcionais em uma aplicação de e-commerce, desenvolvido como
 
 ## Objetivo
 
-Demonstrar conhecimentos em testes manuais, elaboração de casos de teste, execução de cenários, registro de evidências e reporte de bugs.
+Praticar testes de software em uma aplicação real, criando casos de teste, executando cenários, registrando evidências e documentando bugs encontrados durante os testes.
+
+## O que eu testei
+
+- Login com credenciais válidas
+- Login com senha inválida
+- Adição de produto ao carrinho
+- Remoção de produto do carrinho
+- Processo de checkout
+- Validação de campos obrigatórios
+- Finalização da compra
+- Registro de evidências dos testes
+- Identificação e documentação de bugs
+
+Praticar testes de software em uma aplicação real, criando casos de teste, executando cenários, registrando evidências e documentando bugs encontrados durante os testes.
 
 ## Aplicação testada
 
