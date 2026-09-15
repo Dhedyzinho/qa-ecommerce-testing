@@ -54,6 +54,11 @@ Durante os testes, encontrei alguns comportamentos que foram registrados para an
 | TC003 | Adicionar produto ao carrinho | ✅ PASSOU |
 | TC004 | Remover produto do carrinho | ✅ PASSOU |
 | TC005 | Finalizar compra | ✅ PASSOU |
+| TC006 | Login com campos vazios | ✅ PASSOU |
+| TC007 | Adicionar mais de um produto ao carrinho | ✅ PASSOU |
+| TC008 | Verificar quantidade de produtos no carrinho | ✅ PASSOU |
+| TC009 | Validar campos obrigatórios no checkout | ✅ PASSOU |
+| TC010 | Cancelar checkout | ✅ PASSOU |
 
 ## 🐛 Problemas encontrados
 
