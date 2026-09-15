@@ -33,6 +33,20 @@ durante os testes.
 - Validar campos obrigatórios no checkout — PASSOU
 - Cancelar checkout — PASSOU
 
+## 🤖 Automação dos testes
+
+Além dos testes manuais, automatizei os 10 casos de teste usando Python e Playwright.
+
+As automações cobrem os principais fluxos do e-commerce, como login, carrinho e checkout.
+
+Os testes podem ser encontrados na pasta `automacao` e as evidências geradas ficam na pasta `evidence`.
+
+### Tecnologias utilizadas
+
+- Python
+- Playwright
+- Git e GitHub
+
 Durante os testes, encontrei alguns comportamentos que foram registrados para análise como possíveis bugs.
 
 🌐 Aplicação testada
