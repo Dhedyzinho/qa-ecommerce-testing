@@ -55,13 +55,23 @@ Durante os testes, encontrei alguns comportamentos que foram registrados para an
 | TC004 | Remover produto do carrinho | ✅ PASSOU |
 | TC005 | Finalizar compra | ✅ PASSOU |
 
-## 🐛 Problema encontrado
+## 🐛 Problemas encontrados
 
-Durante os testes, encontrei um problema na validação do campo ZIP/Postal Code no checkout.
+Durante os testes, encontrei alguns comportamentos que merecem atenção.
 
-- BUG-001 — Campo ZIP/Postal Code aceita formato inválido
+### BUG-001 — Campo ZIP/Postal Code aceita formato inválido
+
 - Severidade: Baixa
 - Prioridade: Média
+
+O sistema permite avançar no checkout mesmo quando o ZIP/Postal Code informado está em um formato inválido.
+
+### BUG-002 — Checkout pode ser finalizado sem produtos
+
+- Severidade: Média
+- Prioridade: Alta
+
+Durante um teste exploratório, foi possível finalizar o checkout com o carrinho vazio, gerando um pedido com total de $0.00.
 
 ## 📸 Evidências
 
