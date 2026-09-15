@@ -20,14 +20,18 @@ durante os testes.
 - Registro de evidências dos testes
 - Identificação e documentação de bugs
 
-📊 Resultado dos testes
+## 📊 Resultado dos testes
 
 - Login com credenciais válidas — PASSOU
 - Login com senha inválida — PASSOU
-- Adição de produto ao carrinho — PASSOU
-- Remoção de produto do carrinho — PASSOU
-- Checkout com dados válidos — PASSOU
-- Validação de campos obrigatórios — PASSOU
+- Adicionar produto ao carrinho — PASSOU
+- Remover produto do carrinho — PASSOU
+- Finalizar compra (Checkout) — PASSOU
+- Login com campos vazios — PASSOU
+- Adicionar mais de um produto ao carrinho — PASSOU
+- Verificar quantidade de produtos no carrinho — PASSOU
+- Validar campos obrigatórios no checkout — PASSOU
+- Cancelar checkout — PASSOU
 
 Durante os testes, encontrei alguns comportamentos que foram registrados para análise como possíveis bugs.
 
@@ -44,6 +48,11 @@ Durante os testes, encontrei alguns comportamentos que foram registrados para an
 - TC003 — Adicionar produto ao carrinho
 - TC004 — Remover produto do carrinho
 - TC005 — Finalizar compra (Checkout)
+- TC006 — Login com campos vazios
+- TC007 — Adicionar mais de um produto ao carrinho
+- TC008 — Verificar quantidade de produtos no carrinho
+- TC009 — Validar campos obrigatórios no checkout
+- TC010 — Cancelar checkout
 
 ✅ Resultados dos testes
 
