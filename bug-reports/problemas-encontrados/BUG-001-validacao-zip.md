@@ -1,67 +1,47 @@
-# BUG-001 — Validação do campo ZIP/Postal Code
+# 🐛 BUG-001 — Validação do campo ZIP/Postal Code
 
 ## Título
 
 Sistema permite avançar no checkout com ZIP/Postal Code em formato inválido.
 
-## Severidade
-
-Baixa
-
-## Prioridade
-
-Média
-
 ## Ambiente
 
-- **Aplicação:** SauceDemo
-- **Navegador:** Google Chrome
-- **Sistema operacional:** Windows
+- Aplicação: Sauce Labs Swag Labs
+- Navegador: Google Chrome
+- Sistema operacional: Windows
+- Tipo de teste: Teste funcional
 
-## Pré-condições
+## Pré-condição
 
-- Usuário autenticado na aplicação.
-- Produto adicionado ao carrinho.
-- Usuário na tela de checkout.
-
-## Dados de teste
-
-- **First Name:** Wesley
-- **Last Name:** QA
-- **ZIP/Postal Code:** `abc123`
+Estar logado na aplicação e possuir um produto no carrinho.
 
 ## Passos para reproduzir
 
-1. Acessar a aplicação.
-2. Realizar login com um usuário válido.
-3. Adicionar um produto ao carrinho.
-4. Acessar o carrinho.
-5. Clicar em **Checkout**.
-6. Preencher o campo **First Name** com `Wesley`.
-7. Preencher o campo **Last Name** com `QA`.
-8. Preencher o campo **ZIP/Postal Code** com `abc123`.
-9. Clicar em **Continue**.
+1. Adicionar um produto ao carrinho.
+2. Acessar o carrinho.
+3. Iniciar o checkout.
+4. Preencher os campos First Name e Last Name.
+5. Informar um valor inválido no campo ZIP/Postal Code.
+6. Clicar em Continue.
 
 ## Resultado esperado
 
-O sistema deve validar o formato do campo ZIP/Postal Code e impedir o avanço quando um valor inválido for informado.
+O sistema deve validar o formato do ZIP/Postal Code e impedir o avanço quando o valor informado for inválido.
 
 ## Resultado obtido
 
-O sistema aceitou o valor `abc123` e permitiu que o usuário avançasse para a tela **Checkout: Overview**.
+O sistema permite avançar no checkout mesmo quando o ZIP/Postal Code informado está em um formato inválido.
 
-## Impacto
+## Severidade
 
-A ausência de validação do formato do ZIP/Postal Code permite o envio de dados potencialmente inválidos durante o processo de checkout.
+🟢 Baixa
+
+## Prioridade
+
+🟡 Média
 
 ## Evidência
 
-Screenshot do teste exploratório demonstrando que o sistema permitiu avançar para a tela de resumo do pedido utilizando o valor inválido `abc123`.
+A evidência do comportamento está registrada na pasta `evidence`.
 
-## Status
-
-🔴 Aberto
-
-## Observação
-
-Este defeito foi identificado durante um teste exploratório de validação de campos do checkout.
+> Observação: o problema foi identificado durante os testes exploratórios. A necessidade de validação do formato do ZIP/Postal Code foi considerada como comportamento esperado para o campo.
