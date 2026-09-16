@@ -110,6 +110,7 @@ Aqui está uma evidência de um dos testes realizados no checkout.
 📁 Estrutura do projeto
 
 ```text
+```text
 qa-ecommerce-testing/
 ├── automacao/
 │   ├── test_login.py
@@ -123,10 +124,15 @@ qa-ecommerce-testing/
 │   ├── test_checkout_campo_obrigatorio.py
 │   └── test_cancelar_checkout.py
 ├── evidence/
-├── casos-de-teste/
-├── problemas-encontrados/
-├── plano-de-testes/
+├── test-cases/
+├── test-plan/
+├── bug-reports/
+├── .github/
+│   └── workflows/
+│       └── tests.yml
+├── .gitignore
+├── requirements.txt
 ├── testes-checkout.md
-├── testes-login.md
 ├── testes-exploratorios.md
+├── testes-login.md
 └── README.md
