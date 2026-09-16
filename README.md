@@ -110,7 +110,6 @@ Aqui está uma evidência de um dos testes realizados no checkout.
 📁 Estrutura do projeto
 
 ```text
-```text
 qa-ecommerce-testing/
 ├── automacao/
 │   ├── test_login.py
