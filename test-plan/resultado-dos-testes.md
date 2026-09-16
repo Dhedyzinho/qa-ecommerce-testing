@@ -7,7 +7,7 @@ Foram executados 10 casos de teste funcionais na aplicação Sauce Labs Swag Lab
 - Total de testes: 10
 - Testes aprovados: 10
 - Testes reprovados: 0
-- Problemas encontrados: 1
+- Problemas encontrados: 2
 
 ## Resultado por caso de teste
 
