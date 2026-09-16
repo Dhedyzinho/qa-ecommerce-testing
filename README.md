@@ -111,8 +111,22 @@ Aqui está uma evidência de um dos testes realizados no checkout.
 
 ```text
 qa-ecommerce-testing/
-├── bug-reports/
+├── automacao/
+│   ├── test_login.py
+│   ├── test_login_invalido.py
+│   ├── test_adicionar_produto.py
+│   ├── test_remover_produto.py
+│   ├── test_checkout.py
+│   ├── test_login_campos_vazios.py
+│   ├── test_adicionar_varios_produtos.py
+│   ├── test_quantidade_carrinho.py
+│   ├── test_checkout_campo_obrigatorio.py
+│   └── test_cancelar_checkout.py
 ├── evidence/
-├── test-cases/
-├── test-plan/
+├── casos-de-teste/
+├── problemas-encontrados/
+├── plano-de-testes/
+├── testes-checkout.md
+├── testes-login.md
+├── testes-exploratorios.md
 └── README.md
